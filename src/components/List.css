@@ -1,0 +1,73 @@
+.bg-card-start {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSIxMDI0IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZGIiIGNsaXAtcnVsZT0iZXZlbm9kZGIiIGQ9Ik04IDBDMy41OCAwIDAgMy41OCAwIDhDMCAxMS41NCAyLjI5IDE0LjUzIDUuNDcgMTUuNTlDNS44NyAxNS42NiA2LjAyIDE1LjQyIDYuMDIgMTUuMjFDNi4wMiAxNS4wMiA2LjAxIDE0LjM5IDYuMDEgMTMuNzJDNCAxNC4wOSAzLjQ4IDEzLjIzIDMuMzIgMTIuNzhDMi4yMyAxMi41NSAyLjg0IDExLjg0IDIuNSAxMS42NUMyLjIyIDExLjUgMS44MiAxMS4xMyAyLjQ5IDExLjEyQzMuMTIgMTEuMTEgMy41NyAxMS43IDMuNzIgMTEuOTRDNC40NCAxMy4xNSA1LjU5IDEyLjgxIDYuMDUgMTIuNkM2LjEyIDEyLjA4IDYuMzMgMTEuNzMgNi41NiAxMS41M0M0Ljc4IDExLjMzIDIuOTIgMTAuNjQgMi45MiA3LjU4QzIuOTIgNi43MSAzLjIzIDUuOTkgMy43NCA1LjQzQzMuNjYgNS4yMyAzLjM4IDQuNDEgMy44MiAzLjMxQzMuODIgMy4zMSA0LjQ5IDMuMSA2LjAyIDQuMTNDNi42NiAzLjk1IDcuMzQgMy44NiA4LjAyIDMuODZDOC43IDMuODYgOS4zOCAzLjk1IDEwLjAyIDQuMTNDMTEuNTUgMy4wOSAxMi4yMiAzLjMxIDEyLjIyIDMuMzFDMTIuNjYgNC40MSAxMi4zOCA1LjIzIDEyLjMgNS40M0MxMi44MSA1Ljk5IDEzLjEyIDYuNyAxMy4xMiA3LjU4QzEzLjEyIDEwLjY1IDExLjI1IDExLjMzIDkuNDcgMTEuNTNDOS43NiAxMS43OCAxMCAxMi4yNiAxMCAxMy4wMUMxMCAxNC4wOCAxMCAxNC45NCAxMCAxNS4yMUMxMCAxNS40MiAxMC4xNSAxNS42NyAxMC41NSAxNS41OUMxMy43MSAxNC41MyAxNiAxMS41MyAxNiA4QzE2IDMuNTggMTIuNDIgMCA4IDBaIiB0cmFuc2Zvcm09InNjYWxlKDY0KSIgZmlsbD0iI2YwZjBmMCIvPjwvc3ZnPg==");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 85vh;
+
+    article {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+}
+
+
+/*********** CARD PROFILO UTENTE */
+
+.custom-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    height: 25rem !important;
+}
+
+.card-header-section {
+    background-color: #002b5c;
+    height: 100px;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.card-body-section {
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #6c757d;
+    }
+
+    .list-group-item {
+        font-size: 0.9rem;
+        color: #343a40;
+    }
+}
+
+.profile-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.truncated-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* Numero di righe */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 5.4em;
+    /* Altezza massima per 4 righe, regola secondo il tuo font e dimensione */
+}
+
+/*********** CARD PROFILO REPO */

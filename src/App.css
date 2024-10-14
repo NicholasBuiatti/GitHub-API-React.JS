@@ -1,0 +1,10 @@
+.overlay {
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.6);
+    /* Grigio scuro trasparente */
+    mix-blend-mode: normal;
+    /* Cambia la modalità di miscelazione in "normal" per mantenere il contrasto diretto */
+    color: black;
+    /* Assicurati che il testo rimanga nero per il contrasto */
+}
